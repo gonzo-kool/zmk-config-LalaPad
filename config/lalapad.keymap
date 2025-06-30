@@ -196,7 +196,7 @@
 
         DEFAULT_LAYER {
             display-name = "Default";
-            sensor-bindings = <&volume_up_down>, <&scroll_up_down>;
+            sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
 
             bindings = <
 &kp ESC    &kp Q         &kp W         &kp E                    &kp R        &kp T                     &kp Y                   &kp U            &kp I                   &kp O       &kp P           &mt EQUAL MINUS
@@ -229,6 +229,8 @@
 &trans  &trans   &trans   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans   &trans
                  &trans   &trans  &trans      &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&volume_up_down>, <&volume_up_down>;
         };
 
         SYSTEM_LAYER {
