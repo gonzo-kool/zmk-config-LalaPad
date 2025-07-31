@@ -29,8 +29,6 @@
     // result in duplicate taps
     // tap-detection;
     inertial-cursor;
-    inertial-cursor-velocity-threshold-ms=<20>;
-    inertial-cursor-decay-percent=<98>;
 };
 
 // cirque trackpad input&layer control
