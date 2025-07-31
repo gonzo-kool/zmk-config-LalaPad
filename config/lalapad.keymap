@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <behaviors/input_processor_gestures.dtsi>
 
 #define DEFAULT_LAYER   0
 #define SECONDARY_LAYER 1
@@ -28,8 +29,6 @@
     // result in duplicate taps
     // tap-detection;
     inertial-cursor;
-    inertial-cursor-velocity-threshold-ms=20;
-    inertial-cursor-decay-percent=98;
 };
 
 // cirque trackpad input&layer control
