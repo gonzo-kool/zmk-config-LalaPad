@@ -237,11 +237,11 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &kp EXCL   &kp AT             &kp HASH   &kp DOLLAR            &kp PERCENT            &kp PG_UP      &kp HOME        &kp UP_ARROW    &kp END          &kp PSCRN        &trans
-&trans  &kp CARET  &kp AMPERSAND      &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PG_DN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none            &trans
-&trans  &kp TILDE  &kp DOUBLE_QUOTES  &kp COLON  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &mkp MB4        &none           &mkp MB5         &kp RIGHT_SHIFT  &trans
-&trans  &trans     &trans             &trans     &trans                &trans                 &trans         &trans          &trans          &trans           &trans           &trans
-                   &trans             &trans     &trans                &trans                 &trans         &trans          &trans          &trans
+&kp PAUSE_BREAK  &kp EXCL   &kp AT             &kp HASH   &kp DOLLAR            &kp PERCENT            &kp PG_UP      &kp HOME        &kp UP_ARROW    &kp END          &kp PSCRN        &trans
+&trans           &kp CARET  &kp AMPERSAND      &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PG_DN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none            &trans
+&trans           &kp TILDE  &kp DOUBLE_QUOTES  &kp COLON  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &mkp MB4        &none           &mkp MB5         &kp RIGHT_SHIFT  &trans
+&trans           &trans     &trans             &trans     &trans                &trans                 &trans         &trans          &trans          &trans           &trans           &trans
+                            &trans             &trans     &trans                &trans                 &trans         &trans          &trans          &trans
             >;
 
             sensor-bindings = <&volume_up_down>, <&volume_up_down>;
