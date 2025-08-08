@@ -208,12 +208,12 @@
 
         lang2 {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <43 44>;
+            key-positions = <39 40>;
         };
 
         lang1 {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <39 40>;
+            key-positions = <44 43>;
         };
     };
 
