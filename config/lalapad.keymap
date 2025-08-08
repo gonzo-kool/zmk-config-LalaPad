@@ -203,7 +203,19 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <43 44>;
+        };
+
+        lang1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <39 40>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
