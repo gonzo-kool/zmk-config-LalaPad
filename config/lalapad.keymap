@@ -229,7 +229,7 @@
 &kp TAB    &kp A         &kp S         &kp D                    &kp F                    &kp G         &kp H                        &kp J            &kp K                    &kp L          &mt2 SEMI LBKT  &mt2 SQT RBKT
 &kp LSHFT  &kp Z         &kp X         &kp C                    &kp V                    &kp B         &kp N                        &kp M            &kp COMMA                &kp PERIOD     &mt2 UP SLASH   &mt2 RIGHT_SHIFT BSLH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt2 LEFT_CONTROL SPACE  &lt 1 SPACE              &lt 3 LANG2   &lt SYSTEM_LAYER LANGUAGE_1  &lt 2 BACKSPACE  &mt2 RIGHT_SHIFT RETURN  &kp RIGHT_ALT  &kp RIGHT_WIN   &kp RCTRL
-                         &sk LEFT_ALT  &kp LEFT_SHIFT           &kp LANG_ZENKAKUHANKAKU  &kp LEFT_GUI  &allow_pageup                &allow_home      &allow_pagedown          &allow_end
+                         &sk LEFT_ALT  &kp INT_HENKAN           &kp LANG_ZENKAKUHANKAKU  &kp LEFT_GUI  &allow_pageup                &allow_home      &allow_pagedown          &allow_end
             >;
         };
 
