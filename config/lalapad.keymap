@@ -206,12 +206,12 @@
     combos {
         compatible = "zmk,combos";
 
-        EscapeKey {
+        EscapeKeyCombo {
             bindings = <&kp ESCAPE>;
             key-positions = <40 43>;
         };
 
-        CtrlAltDelete {
+        CtrlAltDeleteCombo {
             bindings = <&kp LS(LA(DELETE))>;
             key-positions = <0 1 2>;
         };
