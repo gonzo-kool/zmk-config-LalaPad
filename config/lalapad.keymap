@@ -215,6 +215,11 @@
             bindings = <&kp LA(LC(DELETE))>;
             key-positions = <0 1 2>;
         };
+
+        WindowCloseCombo {
+            bindings = <&kp LA(F4)>;
+            key-positions = <39 44>;
+        };
     };
 
     keymap {
