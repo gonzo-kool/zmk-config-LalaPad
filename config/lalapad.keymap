@@ -206,14 +206,14 @@
     combos {
         compatible = "zmk,combos";
 
-        lang2 {
-            bindings = <&kp LANGUAGE_2>;
-            key-positions = <39 40>;
+        EscapeKey {
+            bindings = <&kp ESCAPE>;
+            key-positions = <40 43>;
         };
 
-        lang1 {
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <44 43>;
+        CtrlAltDelete {
+            bindings = <&kp LS(LA(DELETE))>;
+            key-positions = <0 1 2>;
         };
     };
 
