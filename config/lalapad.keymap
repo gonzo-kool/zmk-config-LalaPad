@@ -1,5 +1,4 @@
 #include <input/processors.dtsi>
-#include <behaviors/input_processor_gestures.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -16,20 +15,7 @@
 #define SCROLL_L_LAYER  7
 
 // Mouse Scroll Value
-
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-
-&zip_gestures {
-    // Activate gestures and change their configuration as you see fit.
-    // for details, see the section below that describes all gestures and
-    // their configuration options.
-    // This will create a mouseclick if your touch is short enough.
-    // if you're running in relative mode and don't use no-taps, this might
-    // result in duplicate taps
-    // tap-detection;
-
-    inertial-cursor;
-};
 
 // cirque trackpad input&layer control
 
