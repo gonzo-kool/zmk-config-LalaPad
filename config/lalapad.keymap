@@ -178,6 +178,17 @@
             require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
+
+        // 名称は任意（例: lt_rept）
+        lt2: layer_tap_repeat {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_REPEAT";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";       // タップ優先の設定（好みで balanced 等に変更可）
+            tapping-term-ms = <200>;        // ホールド判定までの時間
+            quick-tap-ms = <175>;           // 重要：この時間内の再タップ＆ホールドで「文字リピート」になる
+            bindings = <&mo>, <&kp>;        // 第1引数:レイヤー(Hold)、第2引数:キー(Tap)
+        };
     };
 
     keymap {
