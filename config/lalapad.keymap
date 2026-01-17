@@ -180,6 +180,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        EscapeCombo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <40 43>;
+        };
+
+        ZenkakuHankakuCombo {
+            bindings = <&kp F15>;
+            key-positions = <39 44>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
