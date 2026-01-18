@@ -189,7 +189,8 @@
             tapping-term-ms = <200>;        // ホールド判定までの時間
             quick-tap-ms = <175>;           // 重要：この時間内の再タップ＆ホールドで「文字リピート」になる
             bindings = <&mo>, <&kp>;
-        // 第1引数:レイヤー(Hold)、第2引数:キー(Tap)
+
+            // 第1引数:レイヤー(Hold)、第2引数:キー(Tap)
         };
     };
 
@@ -203,7 +204,7 @@
 
         ZenkakuHankakuCombo {
             bindings = <&kp F15>;
-            key-positions = <39 44>;
+            key-positions = <0 38>;
         };
     };
 
