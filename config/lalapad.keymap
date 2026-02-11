@@ -204,7 +204,7 @@
 
         ZenkakuHankakuCombo {
             bindings = <&kp F15>;
-            key-positions = <0 38>;
+            key-positions = <0 41>;
         };
     };
 
